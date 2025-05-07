@@ -1,0 +1,16 @@
+@baseUrl = http://localhost:8000
+
+## user ##
+GET {{baseUrl}}/users
+
+### show user
+
+### update user
+PATCH {{baseUrl}}/users/12
+
+{
+    "_token": "Jsv0eagoRgvzoAsTopBkd2ncw6k3qlR3lKZP7b47",
+    "name": "Ebuka Idara",
+    "email": "ebuka.idara@gmail.com",
+    "dateOfBirth": "2000-03-22"
+}
